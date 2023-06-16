@@ -8,7 +8,7 @@ const ABout = () => {
         <h1 className='text-center font-bold text-3xl mb-10 pt-20'>About me</h1>
         <div className="data bg-white p-4 text-center max-w-5xl mx-auto">
         <p className='px-6 py-10 shadow-slate-900 text-justify'>Hi there, i,m a full-stack developer with academic background in Software Development.i,ve been honing my skills in web development, and  i,m always 
-            eager to  learn more and expand my abilties. Thank you for my Website, and feel free to reach out if you have any questions or opportunities to collaborate.
+            eager to  learn more and expand my abilties. Thank you for visiting my portfolio Website, and feel free to reach out if you have any questions or opportunities to collaborate.
             
 
         </p>
