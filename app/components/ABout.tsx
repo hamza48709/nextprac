@@ -14,9 +14,11 @@ const ABout = () => {
         </p>
        
          
-        <div className="btn flex bg-yellow-200 p-4 justify-center max-w-xs mx-auto rounded-md shadow-lg">
+        <div className="btn flex bg-yellow-200 p-4 justify-center max-w-xs mx-auto rounded-md shadow-lg hover:bg-yellow-100">
+          <a href="/CV.pdf" download className='flex'> 
             <h1>Download Cv</h1>
             <Download/>
+            </a>
         </div>
        
           

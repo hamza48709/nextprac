@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { Mail,Contact } from 'lucide-react'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -9,8 +10,8 @@ const Hero = () => {
       <div className="info flex justify-center flex-col p-10 font-bold  md:text-lg"><h1 className='bg-yellow-200 p-4 text-center text-xs  rounded-md'>HELLO I,m</h1>
       <h1 className='mt-4  rounded-full selection: text-center shadow-md bg-white p-4 animate-pulse'>HAMZA</h1>
       <h1 className='bg-yellow-200 mt-5 p-4  shadow-md text-center animate-bounce'>Full Stack Developer</h1>
-      <span className='email flex  mt-4 bg-red-400  p-4 shadow-md rounded-full justify-center'><Mail/> <link rel="stylesheet" href="mailto:hk48709@gmail.com" />hk48709@gmail.com</span>
-      <span className='email flex  mt-4 bg-red-400 p-4 shadow-md rounded-full justify-center'><Contact/> <link rel="stylesheet" href="tel:+923365763310" />+923365763310</span>
+      <a  href="mailto:hk48709@gmail.com" > <span className='email flex  mt-4 bg-red-400 hover:bg-red-300  p-4 shadow-md rounded-full justify-center'><Mail/> hk48709@gmail.com</span></a>
+      <a  href="tel:+923365763310"><span className='email flex  mt-4 bg-red-400 hover:bg-red-300 p-4 shadow-md rounded-full justify-center'><Contact/> +923365763310</span></a>
       </div>
       
 

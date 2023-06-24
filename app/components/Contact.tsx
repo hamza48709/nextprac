@@ -16,7 +16,7 @@ const Contact = () => {
             <label htmlFor="Email">Message</label>
             <br />
             <textarea name="" id="" cols={30} rows={10} placeholder='Enter your message' className='border-4 shadow-lg rounded-xl p-2 hover:border-black'></textarea>
-            <button className='btn bg-yellow-200 p-4 justify-center rounded-md shadow-lg mt-5'>Submit</button>
+            <button className='btn bg-yellow-200 p-4 justify-center rounded-md shadow-lg mt-5 hover:bg-yellow-100'>Submit</button>
 
 
         </form>

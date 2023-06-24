@@ -15,7 +15,7 @@ const Skills = () => {
     <Skill pic="/typescript.png" name="html" />
     <Skill pic="/react.png" name="html" />
     <Skill pic="/next.svg" name="html"/>
-    <Skill pic="/postgress.png" name="html" />
+    <Skill pic="/postgresql.png" name="html" />
     <Skill pic="/visual-basic.png" name="html" className="bg-white" />
     
 
