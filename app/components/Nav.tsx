@@ -2,6 +2,7 @@
 import React from 'react'
 import {Menu} from 'lucide-react';
 
+
 import Link from 'next/link';
 import { useState } from 'react';
 
@@ -63,27 +64,27 @@ const Nav = () => {
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-center">
                 <li>
-                  <Link href="/">
+                  <Link href="#home">
                     HOME
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blogs">
+                  <Link href="#about">
                     ABOUT
                   </Link>
                 </li>
                 <li>
-                  <Link href="/about">
+                  <Link href="#skills">
                     SKILLS
                   </Link>
                 </li>
                 <li>
-                  <Link href="/about">
+                  <Link href="/">
                     PROJECTS
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contact">
+                  <Link href="#contact">
                     CONTACT
                   </Link>
                 </li>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='h-screen my-10 bg-white p-10'>
+    <div className='my-10 min-h-screen gap-y-36 bg-white p-10' id='contact'>
         <h1 className='text-center font-bold  text-xl mt-4 mb-8'>Contact me</h1>
         <form action="" className='flex flex-col max-w-lg mx-auto'>
             <label htmlFor="Name">Name</label>

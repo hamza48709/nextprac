@@ -3,7 +3,7 @@ import { Download } from 'lucide-react'
 
 const ABout = () => {
   return (
-    <div className='h-screen p-5 flex flex-col justify-evenly align-middle shadow-slate-700'>
+    <div className='h-screen p-5 flex flex-col justify-evenly align-middle shadow-slate-700' id='about'>
 
         <h1 className='text-center font-bold text-3xl mb-10 pt-20'>About me</h1>
         <div className="data bg-white p-4 text-center max-w-5xl mx-auto">

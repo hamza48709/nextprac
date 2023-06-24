@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <>
     
-    <div className="skill bg-white h-auto p-10">
+    <div className="skill bg-white h-auto p-10" id='skills'>
     <h1 className='font-bold text-center text-5xl mt-4 mb-8'>Skills</h1>
     <div className="icons flex max-w-5xl mx-auto flex-wrap gap-8 justify-center">
     <Skill pic="/html-5.png" name="html" />
